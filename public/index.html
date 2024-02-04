@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Worker Task</title>
+</head>
+<body class="body">
+    <div class="container">
+        <div>
+            <h1>
+                With web workers
+            </h1>
+        </div>
+        <div style="display: flex; gap: 20px;">
+            <button onclick="calculate()">Calculate Data</button>
+            <button onclick="changeColor()">Change Background</button>
+        </div>
+        <div>
+            <p id="content">0.000000000000000000000000000000</p>
+        </div>
+        <div>
+            <h1>
+                Without web workers
+            </h1>
+        </div>
+        <div style="display: flex; gap: 20px;">
+            <button onclick="calculate1()">Calculate Data</button>
+            <button onclick="changeColor()">Change Background</button>
+        </div>
+        <div>
+            <p id="content1">0.000000000000000000000000000000</p>
+        </div>
+    </div>
+    <p style="text-align: center;">
+        The difference is that when you use web workers you can send the time taken work to the workers and they will do processing on that data and you will be able to do other tasks.
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
