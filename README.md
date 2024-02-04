@@ -21,4 +21,4 @@ I have never used this in projects before, and now I regret it. As i describe ab
 # Challenges
 I have to calculate the big amount and continues with time. so whenever the calculation starts the screen will stuck. So i have to wait for so long. So in development term, we have to post the message to the workers and when they finish they send the message back by post method. That's it.
 # Reference
-[Link Text](https://www.w3schools.com/html/html5_webworkers.asp)
+[https://www.w3schools.com/html/html5_webworkers.asp](https://www.w3schools.com/html/html5_webworkers.asp)
